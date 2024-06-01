@@ -1,0 +1,91 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.container{
+  width: 500px;
+  height: fit-content;
+  background-color: white;
+  border: 2px solid goldenrod;
+  border-radius: 15px;
+}
+.heading h1{
+  width: 100%;
+  background-color: burlywood;
+  font-size: 60px;
+  text-align: center;
+}
+.main-body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-body input {
+  margin: 0 20px;
+  width: 70%;
+  padding: 10px;
+  font-size: 25px;
+  border: 1px solid rgb(177, 159, 159);
+  outline: none;
+  border-radius: 10px;
+}
+.item-list ol{
+  font-size: 25px;
+  padding-left: 60px;
+  padding-block: 20px;
+  height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+.item-list ol li{
+  list-style: none;
+  text-transform: capitalize;
+
+}
+
+
+button{
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+.plus{
+  width: 25px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: goldenrod;
+  text-align: center;
+  font-size: 25px;
+}
+.plus:hover{
+  background-color: darkgoldenrod;
+}
+
+.cross{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding-bottom: 20px;
+  
+}
+.cross-icon{
+
+  width: 20px;
+  font-size: 25px;
+  align-items: start;
+  margin: 0 15px 0 35px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.fa-circle-xmark:hover{
+  scale: 1.1;
+}
